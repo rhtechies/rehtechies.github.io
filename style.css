@@ -1,0 +1,77 @@
+/* Style.css */
+
+/* General Styles */
+body {
+    background-color: #ADD8E6; /* Light blue background */
+    font-family: Helvetica, sans-serif; /* Helvetica font for all text */
+}
+
+/* Header Styles */
+header {
+    background-color: #f0f0f0; /* Light grey background for the header */
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0 20px;
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #d7d7d7;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid #d3d3d3;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Grid Gallery Style for Portfolio */
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 15px;
+    padding: 0 20px;
+}
+
+.grid-gallery .project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-gallery img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
